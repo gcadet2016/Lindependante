@@ -1,0 +1,10 @@
+FROM ubuntu:latest
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update -y
+RUN apt-get upgrade -y
+RUN apt-get install -y lamp-server^ 
+RUN apt install -y git
+
+CMD ["apachectl","-D","FOREGROUND"]
+EXPOSE 80
+EXPOSE 443
