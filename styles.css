@@ -1,14 +1,18 @@
-.main-header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.logo-header{
     margin-left: 30px;
+}
+.titre-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(170, 51, 34); 
     font-size:20px; 
     font-weight: bold;
+    margin-left: 30px;
+    padding-bottom: 8px;
 }
 .main-container{
     margin-left: 30px;
 }
-.menuHeader{
+.menu-header{
     background-color: rgb(144, 22, 23);
     list-style: none;
     padding: 20;
@@ -21,14 +25,14 @@ ul {
     font-size:12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-ul.menuHeader li {
+ul.menu-header li {
 	padding: .3em 0;
 	border-bottom: 1px dashed #CCC;
 }
-ul.menuHeader li:first-child {
+ul.menu-header li:first-child {
 	padding-top: .8em;
 }
-ul.menuHeader li:last-child {
+ul.menu-header li:last-child {
     padding-bottom: .8em;
 	border-bottom: 0;
 }
@@ -44,6 +48,7 @@ h2{
 .post{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:14px;
+    padding-bottom:20px
 }
 .lien{
     color:rgb(170, 51, 34);
@@ -61,4 +66,5 @@ h2{
     text-align: center;
     font-family: inherit;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 80px;
 }
